@@ -1,0 +1,66 @@
+{
+  // Recommended `settings.json` configuration
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.sortMembers": "explicit",
+    "source.fixAll": "explicit",
+    "source.fixAll.markdownlint": "explicit"
+  },
+  "files.autoSave": "afterDelay",
+  "editor.formatOnType": false,
+  "editor.rulers": [
+    100
+  ],
+  "editor.tabSize": 4,
+  "debug.openDebug": "openOnDebugBreak",
+  "debug.internalConsoleOptions": "openOnSessionStart",
+  "dart.debugSdkLibraries": false,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.selectionHighlight": false,
+    "editor.suggestSelection": "first",
+    "editor.wordBasedSuggestions": "off",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.defaultFormatter": "Dart-Code.dart-code"
+  },
+  "window.title": "${dirty}${activeEditorShort}",
+  "conventionalCommits.gitmoji": false,
+  "markdown.extension.toc.unorderedList.marker": "*",
+  "cSpell.autoFormatConfigFile": true,
+  "cSpell.language": "en,en-US",
+  "files.associations": {
+    "Earthfile": "earthfile"
+  },
+  "rust-analyzer.check.overrideCommand": [],
+  "rust-analyzer.linkedProjects": [
+    "./Cargo.toml"
+  ],
+  "yaml.schemas": {
+    "https://squidfunk.github.io/mkdocs-material/schema.json": "mkdocs.yml"
+  },
+  "yaml.customTags": [
+    "!ENV scalar",
+    "!ENV sequence",
+    "tag:yaml.org,2002:python/name:materialx.emoji.to_svg",
+    "tag:yaml.org,2002:python/name:materialx.emoji.twemoji",
+    "tag:yaml.org,2002:python/name:pymdownx.superfences.fence_code_format"
+  ],
+  "[markdown]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "files.trimTrailingWhitespace": true,
+  },
+  "rust-analyzer.rustfmt.extraArgs": [
+    "+nightly"
+  ],
+  "rust-analyzer.lens.enable": true
+}

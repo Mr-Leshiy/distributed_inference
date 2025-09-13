@@ -29,6 +29,7 @@ input = np.ones(
 tensor1, tensor2 = tf.split(
     main_model.layers[0].weights[0], num_or_size_splits=2, axis=1
 )
+print(f"tensor1: {tensor1.shape}, tensor2: {tensor2.shape}")
 
 model_1 = Dense(32, activation="relu", name="hidden_layer")
 model_1(input)

@@ -8,8 +8,9 @@ version = "0.1.0"
 [tasks]
 
 [dependencies]
-mojo = ">=25.6.0.dev2025090305,<26"
-python = "3.13.*"
+mojo = ">=25.5.0,<26"
+python = ">=3.13.7,<3.14"
 numpy = ">=2.3.3,<3"
-onnx = ">=1.18.0,<2"
 
+[pypi-dependencies]
+onnx = ">=1.19.0, <2"
